@@ -1,0 +1,54 @@
+.modal-container {
+    position: absolute;
+    bottom: 18px;
+    background: #fff;
+    padding: 14px;
+    width: 700px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    animation: slideY 1.5s;
+}
+
+@keyframes slideY {
+    from{
+        transform: translateY(90px);
+    }to{
+        transform: translateY(0px);
+    }
+}
+
+.modal-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+.modal-header button{
+    border: 0;
+    background: transparent;
+}
+
+.modal-container span{
+    margin: 14px 0;
+    color: #555454;
+}
+
+.modal-link{
+    background-color: #383838 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 14px;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+
+@midia (max-width: 705px){
+    .modal-container{
+        width: 90%;
+    }
+}

@@ -1,0 +1,40 @@
+.container-error{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-error img {
+    max-width: 400px;
+    margin: 24px 0;
+    animation: robo 2s ease-in-out infinite alternate;
+}
+
+@keyframes robo {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px) rotate(5deg);
+    }
+    75% {
+        transform: translateY(-5px) rotate(-5deg);
+    }
+}
+
+.container-error h1{
+    color: #fff;
+}
+
+.container-error a {
+    color: #132742;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 12px 18px ;
+    border-radius: 10px;
+    margin: 14px 0 ;
+    font-weight: bold;
+}

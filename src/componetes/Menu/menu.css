@@ -1,0 +1,43 @@
+.menu {
+    position: absolute;
+    top: 20px;
+    font-weight: bold;
+    right: 10%;
+    display: flex;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.social {
+    margin-right: 14px;
+    display: flex;
+    align-items: center;
+}
+.social:hover {
+    transform: scale(1.1); /* Aumenta ligeiramente o tamanho do item ao passar o mouse */
+}
+
+
+.menu-item {
+    color: #000;
+    background-color: #fff;
+    padding: 12px 24px;
+    border-radius: 4px;
+    margin-right: 14px;
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.menu-item {
+    color: #000;
+    background-color: #fff;
+    padding: 12px 24px;
+    border-radius: 4px;
+    margin-right: 14px;
+    transition: transform 0.3s ease; /* Adiciona uma transição suave para a propriedade transform */
+}
+
+.menu-item:hover {
+    transform: scale(1.1); /* Aumenta ligeiramente o tamanho do item ao passar o mouse */
+}
