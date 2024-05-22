@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Link Shortener using React
+
+![Link Shortener](https://github.com/thmedu/link-shortener-using-react/assets/141462806/181866a2-eca0-4ea6-9fce-9b4c8119afa5)
+
+This project is a simple link shortener built with React. It allows users to shorten long URLs into shorter, more manageable links.
+
+## Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Prerequisites
 
-In the project directory, you can run:
+Before running the application, make sure you have Node.js and npm installed on your machine.
 
-### `npm start`
+### Installation
 
-Runs the app in the development mode.\
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/thmedu/link-shortener-using-react.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd link-shortener-using-react
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running the Application
+
+To run the application locally, use the following command:
+```bash
+npm start
+```
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Available Scripts
 
-### `npm test`
+In the project directory, you can also run:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- `npm test`: Launches the test runner in the interactive watch mode.
+- `npm run build`: Builds the app for production to the `build` folder.
+- `npm run eject`: Ejects the app from Create React App, allowing full control over dependencies and configuration.
 
-### `npm run build`
+### Learn More
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can learn more about Create React App and React in the following documentation:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Create React App Documentation](https://facebook.github.io/create-react-app/docs/getting-started)
+- [React Documentation](https://reactjs.org/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Additional Resources
 
-### `npm run eject`
+For more advanced configurations and deployment options, refer to the following sections in the documentation:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [Code Splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [Analyzing the Bundle Size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [Making a Progressive Web App](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [Advanced Configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- [Deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- [Troubleshooting](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Author
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thomas Nascimento
